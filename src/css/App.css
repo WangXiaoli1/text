@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+}
+.list{
+ width: 600px;
+ height: 50px;
+ line-height: 50px;
+}
+.list li{
+ float: left;
+ width: 200px;
+ height: 50px;
+ line-height: 50px;
+ text-align: center;
+}
+.news{
+ width:600px;
+ height:50px;
+}
+.news li{
+ width: 200px;
+ height:50px;
+ font-size: 18px;
+ line-height: 50px;
+ text-align: center;
+ color: black;
+}
+.news li:nth-of-type(2){
+ margin-left: 200px;
+ margin-top: -50px;
+}
+.news li:nth-of-type(3){
+ margin-left:400px;
+ margin-top: -50px;
+}
+.news li:nth-of-type(4){
+ margin-left:600px;
+ margin-top: -50px;
+}
+.news li:nth-of-type(5){
+ margin-left:800px;
+ margin-top: -50px;
+}
+.updateBox{
+ width: 200px;
+ height: 200px;
+ border: 1px solid black;
+ position: absolute;
+ left:40%;
+ top:300px;
+ display: none;
+}
+.updateBox input{
+ height: 30px;
+ line-height: 30px;
+ margin: 10px;
+}
+.updateBox button{
+ width: 50px;
+ height: 30px;
+ line-height: 30px;
+ font-size: 18px;
+ margin-left: 30px;
+}
